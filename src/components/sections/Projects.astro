@@ -33,7 +33,7 @@ import { projects } from "@cv"
                   <p>{description}</p>
                 </header>
                 <footer>
-                  {highlights.map((highlight) => {
+                  { highlights && (highlights as any[]).map((highlight: any) => {
                     return <span>{highlight}</span>
                   })}
                 </footer>
