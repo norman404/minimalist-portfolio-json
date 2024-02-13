@@ -1,13 +1,20 @@
 ---
 import Section from "../Section.astro"
 
+interface Education {
+  institution: string;
+  startDate: string;
+  endDate: string;
+  area: any;
+}
+
 const { title, defaultDate, education } = Astro.props;
 ---
 
 <Section title={title}>
   <ul>
     {
-      education.map(({ institution, startDate, endDate, area }) => {
+      education.map(({ institution, startDate, endDate, area }: Education) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear =
           endDate != null ? new Date(endDate).getFullYear() : defaultDate

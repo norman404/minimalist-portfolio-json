@@ -8,6 +8,11 @@ import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 
+interface Hero {
+  network: string;
+  url: string;
+}
+
 const { basics } = Astro.props;
 
 const { name, label, location, profiles, phone, email } = basics
@@ -21,7 +26,7 @@ const SOCIAL_ICONS: SocialIcon = {
   X,
 }
 
-const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
+const linkedInfo = profiles.find(({ network }: Hero) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
 const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
@@ -65,7 +70,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
           )
         }
         {
-          profiles.map(({ network, url }) => {
+          profiles.map(({ network, url }: Hero) => {
             const Icon = SOCIAL_ICONS[network]
 
             return (

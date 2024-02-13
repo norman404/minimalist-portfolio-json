@@ -2,6 +2,15 @@
 import GitHub from "@/icons/GitHub.astro"
 import Section from "../Section.astro"
 
+interface Project {
+  name: string;
+  url: string;
+  description: string;
+  highlights?: string[];
+  github?: string;
+  isActive?: boolean;
+}
+
 const { title, projects } = Astro.props;
 ---
 
@@ -9,7 +18,7 @@ const { title, projects } = Astro.props;
   <ul>
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github }) => {
+        ({ url, description, highlights, name, isActive, github }: Project) => {
           return (
             <li>
               <article>

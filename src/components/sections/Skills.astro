@@ -25,13 +25,18 @@ const SKILLS_ICONS: Record<string, any> = {
   Next,
   Tailwind,
 }
+
+interface Skill {
+  name: string;
+}
+
 const { title, skills } = Astro.props;
 ---
 
 <Section title={title}>
   <ul>
     {
-      skills.map(({ name }) => {
+      skills.map(({ name }: Skill) => {
         const iconName = name === "Next.js" ? "Next" : name
         const Icon = SKILLS_ICONS[iconName]
 

@@ -1,6 +1,15 @@
 ---
 import Section from "../Section.astro"
 
+interface Experience {
+  name: string;
+  startDate: string;
+  endDate: string;
+  position: string;
+  summary: string;
+  url: string;
+}
+
 const { title, defaultDate, work } = Astro.props
 ---
 
@@ -8,7 +17,7 @@ const { title, defaultDate, work } = Astro.props
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, url }) => {
+        ({ name, startDate, endDate, position, summary, url }: Experience) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : defaultDate
