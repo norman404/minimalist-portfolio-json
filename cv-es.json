@@ -1,0 +1,258 @@
+{
+  "basics": {
+    "name": "Norman Torres",
+    "label": "Desarrollador Full Stack y DevOps con experiencia en AWS y CI/CD, Instructor de Programación en Tec Gurus.",
+    "image": "https://media.licdn.com/dms/image/D4E03AQH3CW29okuWrA/profile-displayphoto-shrink_400_400/0/1701817566519?e=1712793600&v=beta&t=On_GZBeocosmkazM6bCyoDULAQYY7whEUjKuEK1QrNo",
+    "email": "norman.torres.mx@gmail.com",
+    "phone": "+52 3315646602",
+    "url": "https://molcajete.dev",
+    "summary": "Con más de 7 años de experiencia en desarrollo web y DevOps, actualmente lidero la adopción de tecnologías en la nube y CI/CD, además de compartir mi conocimiento como instructor de programación. Formado en Ingeniería Informática y en proceso de ampliar mis habilidades en Desarrollo Web, estoy comprometido con la innovación tecnológica y la educación en programación.",
+    "location": {
+      "address": "",
+      "postalCode": "44890",
+      "city": "Guadalajara, Jalisco",
+      "countryCode": "MX",
+      "region": "México"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "midudev",
+        "url": "https://linkedin.com/in/normanantoniotg"
+      },
+      {
+        "network": "X",
+        "username": "midudev",
+        "url": "https://x.com/norman404_"
+      },
+      {
+        "network": "GitHub",
+        "username": "midudev",
+        "url": "https://github.com/norman404"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Parco APP",
+      "position": "Ingeniero Full Stack / DevOps",
+      "startDate": "2017-11-01",
+      "url": "https://parcoapp.com",
+      "summary": "Lideré la adopción de AWS para la infraestructura en la nube, optimizando costos y mejorando la escalabilidad. Implementé pipelines de CI/CD con GitLab CI, mejorando la eficiencia en el despliegue de aplicaciones. Desarrollé y mantuve aplicaciones usando JavaScript, React, Node.js y Express. Automatizé procesos con scripts de Bash y Docker, aumentando la productividad del equipo.",
+      "highlights": [
+        "Adopción de AWS para infraestructura en la nube",
+        "Implementación de pipelines de CI/CD con GitLab CI",
+        "Desarrollo y mantenimiento de aplicaciones con JavaScript, React, Node.js y Express",
+        "Automatización de procesos con scripts de Bash y Docker"
+      ]
+    },
+    {
+      "name": "Tec Gurus",
+      "position": "Instructor de Programación",
+      "startDate": "2017-07-01",
+      "summary": "Enseñé desarrollo web, Node.js, Angular y cursos de DevOps, enfocándome en las mejores prácticas y automatización. Capacité a los estudiantes en Git y GitHub, preparándolos para entornos colaborativos y control de versiones.",
+      "highlights": [
+        "Enseñanza de desarrollo web, Node.js, Angular y cursos de DevOps",
+        "Capacitación en Git y GitHub para entornos colaborativos y control de versiones"
+      ]
+    },
+    {
+      "name": "ADDA",
+      "position": "Desarrollador Web",
+      "startDate": "2014-02-01",
+      "endDate": "2016-05-01",
+      "summary": "Participé en el desarrollo de sistemas basados en la nube y páginas web utilizando tecnologías como PHP y Python.",
+      "highlights": [
+        "Desarrollo de sistemas basados en la nube",
+        "Desarrollo web con PHP y Python"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organización",
+    "position": "Voluntario",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Descripción…",
+    "highlights": [
+      "Premiado 'Voluntario del Mes'"
+    ]
+  }],
+  "education": [
+    {
+      "institution": "CUV - Universidad de Guadalajara",
+      "area": "Desarrollo Web",
+      "studyType": "Curso",
+      "startDate": "2021-01-01"
+    },
+    {
+      "institution": "CUCEI - Universidad de Guadalajara",
+      "area": "Ingeniería en Computación",
+      "studyType": "Licenciatura",
+      "startDate": "2015-08-01",
+      "endDate": "2020-07-01"
+    },
+    {
+      "institution": "Escuela Politécnica Universidad de Guadalajara",
+      "area": "Técnico Profesional en Informática",
+      "studyType": "Técnico",
+      "startDate": "2011-08-01",
+      "endDate": "2015-07-01"
+    }
+  ],
+  "awards": [{
+    "title": "Premio",
+    "date": "2014-11-01",
+    "awarder": "Empresa",
+    "summary": "No hay cuchara."
+  }],
+  "certificates": [{
+    "name": "Certificado",
+    "date": "2021-11-07",
+    "issuer": "Empresa",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publicación",
+    "publisher": "Empresa",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Descripción…"
+  }],
+  "skills": [
+    {
+      "name": "AWS",
+      "level": "Avanzado",
+      "keywords": [
+        "Nube", "Infraestructura", "Servicios Web"
+      ]
+    },
+    {
+      "name": "Google Cloud",
+      "level": "Básico",
+      "keywords": [
+        "Nube", "Computación en la Nube", "Servicios Web"
+      ]
+    },
+    {
+      "name": "Azure",
+      "level": "Básico",
+      "keywords": [
+        "Nube", "Microsoft", "Servicios Web"
+      ]
+    },
+    {
+      "name": "Digital Ocean",
+      "level": "Básico",
+      "keywords": [
+        "Nube", "Infraestructura", "Servicios Web"
+      ]
+    },
+    {
+      "name": "Jenkins",
+      "level": "Intermedio",
+      "keywords": [
+        "CI/CD", "Automatización", "Integración Continua"
+      ]
+    },
+    {
+      "name": "GitLab CI",
+      "level": "Intermedio",
+      "keywords": [
+        "CI/CD", "GitLab", "Integración Continua"
+      ]
+    },
+    {
+      "name": "GitHub Actions",
+      "level": "Básico",
+      "keywords": [
+        "CI/CD", "GitHub", "Automatización"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermedio-Avanzado",
+      "keywords": [
+        "Contenedores", "Virtualización", "Despliegue"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Intermedio-Avanzado",
+      "keywords": [
+        "Orquestación", "Contenedores", "Microservicios"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Programación", "Frontend", "Backend"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": [
+        "Programación", "Backend", "Scripts"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Básico",
+      "keywords": [
+        "Programación", "Backend", "Aplicaciones"
+      ]
+    },
+    {
+      "name": "C++",
+      "level": "Básico",
+      "keywords": [
+        "Programación", "Sistemas", "Algoritmos"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "Básico",
+      "keywords": [
+        "Programación", "Web", "Backend"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "level": "Intermedio-Avanzado",
+      "keywords": [
+        "Sistemas Operativos", "Shell", "Servidores"
+      ]
+    },
+    {
+      "name": "Bash",
+      "level": "Intermedio-Avanzado",
+      "keywords": [
+        "Scripting", "Automatización", "Shell"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Hablante nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Básico"
+    }
+  ],
+  "interests": [{
+    "name": "Vida silvestre",
+    "keywords": [
+      "Hurones", "Unicornios"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Referencia…"
+  }],
+  "projects": []
+}

@@ -19,6 +19,10 @@ const { image, summary } = basics
 		<link rel="preload" as="image" href={image} />
 	</head>
 	<body>
+    <div class="languages">
+      <a href='/'>English</a>
+      <a href='/es'>Spanish</a>
+    </div>
 		<slot />
 	</body>
 </html>
@@ -98,4 +102,19 @@ const { image, summary } = basics
       break-inside: avoid;
     }
   }
+  /* Esto hace que el contenedor de "languages" sea un flex container */
+.languages {
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  gap: 10px; /* Espacio entre los elementos "a" */
+}
+
+/* Estilos adicionales para los enlaces, para que sean más discretos */
+.languages a {
+  text-decoration: none; /* Elimina el subrayado */
+  color: #666; /* Color discreto */
+  font-size: 0.8rem; /* Tamaño de fuente más pequeño */
+}
+
 </style>

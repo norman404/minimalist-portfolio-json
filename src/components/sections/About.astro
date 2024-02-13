@@ -1,11 +1,11 @@
 ---
 import Section from "../Section.astro"
 
-import { basics } from "@cv"
+const { title, basics } = Astro.props;
 const { summary } = basics
 ---
 
-<Section title="Sobre mí">
+<Section title={title}>
   <p>
     {summary}
   </p>
