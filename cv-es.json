@@ -34,9 +34,23 @@
   },
   "work": [
     {
+      "name": "Ayudate LTA",
+      "position": "DevOps tech lead",
+      "startDate": "2024-03-25",
+      "url": "https://www.ayudatelta.com/",
+      "summary": "Como líder técnico en Ayudate, encabezé los esfuerzos de desarrollo tecnológico con un fuerte enfoque en DevOps, implementando las mejores prácticas para la integración y entrega continua. Supervisé la dirección técnica del equipo de desarrollo, definí la estrategia de proyectos y entregué soluciones escalables y seguras que respaldan los servicios financieros críticos.",
+      "highlights": [
+        "Adopción de AWS para la infraestructura en la nube.",
+        "Implementación de pipelines CI/CD con Github Actions.",
+        "Desarrollo y mantenimiento de aplicaciones con JavaScript, React, Node.js, Nest y Angular.",
+        "Automatización de procesos con scripts Bash y Docker."
+      ]
+    },
+    {
       "name": "Parco APP",
       "position": "Ingeniero Full Stack / DevOps",
       "startDate": "2017-11-01",
+      "endDate": "2024-02-29",
       "url": "https://parcoapp.com",
       "summary": "Lideré la adopción de AWS para la infraestructura en la nube, optimizando costos y mejorando la escalabilidad. Implementé pipelines de CI/CD con GitLab CI, mejorando la eficiencia en el despliegue de aplicaciones. Desarrollé y mantuve aplicaciones usando JavaScript, React, Node.js y Express. Automatizé procesos con scripts de Bash y Docker, aumentando la productividad del equipo.",
       "highlights": [
