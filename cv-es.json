@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Norman Torres",
-    "label": "Desarrollador Full Stack y DevOps con experiencia en AWS y CI/CD, Instructor de Programación en Tec Gurus.",
+    "label": "Tech Lead & DevOps · Microservicios y sistemas distribuidos en AWS · Enfoque AI-first",
     "image": "https://media.licdn.com/dms/image/D4E03AQH3CW29okuWrA/profile-displayphoto-shrink_400_400/0/1701817566519?e=1712793600&v=beta&t=On_GZBeocosmkazM6bCyoDULAQYY7whEUjKuEK1QrNo",
     "email": "norman.torres.mx@gmail.com",
     "phone": "+52 3315646602",
     "url": "https://molcajete.dev",
-    "summary": "Con más de 7 años de experiencia en desarrollo web y DevOps, actualmente lidero la adopción de tecnologías en la nube y CI/CD, además de compartir mi conocimiento como instructor de programación. Formado en Ingeniería Informática y en proceso de ampliar mis habilidades en Desarrollo Web, estoy comprometido con la innovación tecnológica y la educación en programación.",
+    "summary": "Tech Lead con 7+ años en desarrollo de software y DevOps. Lidero un equipo de 5 desarrolladores en una fintech, diseñando arquitecturas escalables de microservicios y APIs sobre AWS, con enfoque en calidad de código, buenas prácticas y adopción de IA (agentes y LLMs) para resolver problemas reales y acelerar la entrega.",
     "location": {
       "address": "",
       "postalCode": "44890",
@@ -17,17 +17,17 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
+        "username": "normanantoniotg",
         "url": "https://linkedin.com/in/normanantoniotg"
       },
       {
         "network": "X",
-        "username": "midudev",
+        "username": "norman404_",
         "url": "https://x.com/norman404_"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
+        "username": "norman404",
         "url": "https://github.com/norman404"
       }
     ]
@@ -35,39 +35,42 @@
   "work": [
     {
       "name": "Ayudate LTA",
-      "position": "DevOps tech lead",
+      "position": "Tech Lead & DevOps",
       "startDate": "2024-03-25",
       "url": "https://www.ayudatelta.com/",
-      "summary": "Como líder técnico en Ayudate, encabezé los esfuerzos de desarrollo tecnológico con un fuerte enfoque en DevOps, implementando las mejores prácticas para la integración y entrega continua. Supervisé la dirección técnica del equipo de desarrollo, definí la estrategia de proyectos y entregué soluciones escalables y seguras que respaldan los servicios financieros críticos.",
+      "summary": "Tech Lead en una fintech: lidero un equipo de 5 desarrolladores definiendo arquitectura, buenas prácticas y dirección técnica. Diseño sistemas distribuidos de microservicios y APIs sobre AWS con CI/CD. Impulso un flujo AI-first: integré el SDK de Gemini en producción y uso agentes de código (opencode, Claude Code) con modelos Claude, GPT y Kimi para acelerar la entrega.",
       "highlights": [
-        "Adopción de AWS para la infraestructura en la nube.",
-        "Implementación de pipelines CI/CD con Github Actions.",
-        "Desarrollo y mantenimiento de aplicaciones con JavaScript, React, Node.js, Nest y Angular.",
-        "Automatización de procesos con scripts Bash y Docker."
+        "Liderazgo técnico de un equipo de 5 desarrolladores: mentoría, arquitectura y buenas prácticas.",
+        "Diseño de arquitecturas escalables basadas en microservicios y APIs sobre AWS.",
+        "Flujo AI-first: integración del SDK de Gemini en producción y agentes de código (opencode, Claude Code) con modelos Claude, GPT y Kimi.",
+        "Implementación de pipelines CI/CD con GitHub Actions y automatización con Bash y Docker.",
+        "Desarrollo y mantenimiento de aplicaciones con JavaScript, React, Node.js, NestJS y Angular."
       ]
     },
     {
       "name": "Parco APP",
-      "position": "Ingeniero Full Stack / DevOps",
+      "position": "Ingeniero Full Stack / DevOps · Referente técnico",
       "startDate": "2017-11-01",
       "endDate": "2024-02-29",
       "url": "https://parcoapp.com",
-      "summary": "Lideré la adopción de AWS para la infraestructura en la nube, optimizando costos y mejorando la escalabilidad. Implementé pipelines de CI/CD con GitLab CI, mejorando la eficiencia en el despliegue de aplicaciones. Desarrollé y mantuve aplicaciones usando JavaScript, React, Node.js y Express. Automatizé procesos con scripts de Bash y Docker, aumentando la productividad del equipo.",
+      "summary": "Referente técnico del equipo: lideré la migración de un monolito a una arquitectura de microservicios, definiendo arquitectura, estándares y decisiones técnicas. Lideré la adopción de AWS y CI/CD con GitLab, mentoreé desarrolladores y construí aplicaciones con JavaScript, React, Node.js y Express.",
       "highlights": [
-        "Adopción de AWS para infraestructura en la nube",
-        "Implementación de pipelines de CI/CD con GitLab CI",
-        "Desarrollo y mantenimiento de aplicaciones con JavaScript, React, Node.js y Express",
-        "Automatización de procesos con scripts de Bash y Docker"
+        "Liderazgo de la migración de un monolito a una arquitectura de microservicios.",
+        "Referente técnico del equipo: definición de arquitectura, estándares y decisiones técnicas.",
+        "Mentoría a desarrolladores mediante code reviews y acompañamiento técnico.",
+        "Adopción de AWS e implementación de pipelines de CI/CD con GitLab CI.",
+        "Desarrollo con JavaScript, React, Node.js y Express, y automatización con Bash y Docker."
       ]
     },
     {
       "name": "Tec Gurus",
-      "position": "Instructor de Programación",
+      "position": "Instructor de Programación · Mentor técnico",
       "startDate": "2017-07-01",
-      "summary": "Enseñé desarrollo web, Node.js, Angular y cursos de DevOps, enfocándome en las mejores prácticas y automatización. Capacité a los estudiantes en Git y GitHub, preparándolos para entornos colaborativos y control de versiones.",
+      "summary": "Instructor y mentor técnico desde 2017 (rol activo en paralelo a mi carrera). Formo a desarrolladores en desarrollo web, Node.js, Angular, DevOps y buenas prácticas, reforzando mi rol como referente técnico y comunicador.",
       "highlights": [
-        "Enseñanza de desarrollo web, Node.js, Angular y cursos de DevOps",
-        "Capacitación en Git y GitHub para entornos colaborativos y control de versiones"
+        "Formación de desarrolladores en desarrollo web, Node.js, Angular y DevOps.",
+        "Mentoría y acompañamiento técnico en Git, GitHub y entornos colaborativos.",
+        "Rol activo desde 2017 en paralelo a mi carrera, reforzando comunicación y liderazgo técnico."
       ]
     },
     {
@@ -75,7 +78,7 @@
       "position": "Desarrollador Web",
       "startDate": "2014-02-01",
       "endDate": "2016-05-01",
-      "summary": "Participé en el desarrollo de sistemas basados en la nube y páginas web utilizando tecnologías como PHP y Python.",
+      "summary": "Desarrollo de sistemas en la nube y aplicaciones web con PHP y Python.",
       "highlights": [
         "Desarrollo de sistemas basados en la nube",
         "Desarrollo web con PHP y Python"
@@ -136,45 +139,31 @@
   }],
   "skills": [
     {
+      "name": "IA / LLMs",
+      "level": "Avanzado",
+      "keywords": [
+        "Gemini SDK", "Claude", "GPT", "Kimi", "Agentes"
+      ]
+    },
+    {
+      "name": "Arquitectura de Software",
+      "level": "Avanzado",
+      "keywords": [
+        "Diseño", "Buenas Prácticas", "Patrones"
+      ]
+    },
+    {
+      "name": "Microservicios",
+      "level": "Avanzado",
+      "keywords": [
+        "Sistemas Distribuidos", "APIs", "Escalabilidad"
+      ]
+    },
+    {
       "name": "AWS",
       "level": "Avanzado",
       "keywords": [
         "Nube", "Infraestructura", "Servicios Web"
-      ]
-    },
-    {
-      "name": "Google Cloud",
-      "level": "Básico",
-      "keywords": [
-        "Nube", "Computación en la Nube", "Servicios Web"
-      ]
-    },
-    {
-      "name": "Azure",
-      "level": "Básico",
-      "keywords": [
-        "Nube", "Microsoft", "Servicios Web"
-      ]
-    },
-    {
-      "name": "Digital Ocean",
-      "level": "Básico",
-      "keywords": [
-        "Nube", "Infraestructura", "Servicios Web"
-      ]
-    },
-    {
-      "name": "Jenkins",
-      "level": "Intermedio",
-      "keywords": [
-        "CI/CD", "Automatización", "Integración Continua"
-      ]
-    },
-    {
-      "name": "GitLab CI",
-      "level": "Intermedio",
-      "keywords": [
-        "CI/CD", "GitLab", "Integración Continua"
       ]
     },
     {
@@ -213,24 +202,10 @@
       ]
     },
     {
-      "name": "Java",
+      "name": "Rust",
       "level": "Básico",
       "keywords": [
-        "Programación", "Backend", "Aplicaciones"
-      ]
-    },
-    {
-      "name": "C++",
-      "level": "Básico",
-      "keywords": [
-        "Programación", "Sistemas", "Algoritmos"
-      ]
-    },
-    {
-      "name": "PHP",
-      "level": "Básico",
-      "keywords": [
-        "Programación", "Web", "Backend"
+        "Programación", "Sistemas", "Rendimiento"
       ]
     },
     {

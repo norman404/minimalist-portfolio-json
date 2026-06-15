@@ -98,8 +98,61 @@ const { image, summary } = basics
       display: none !important;
     }
 
+    .languages {
+      display: none !important;
+    }
+
+    @page {
+      margin: 1cm;
+    }
+
     article {
       break-inside: avoid;
+    }
+
+    /* Compacta el layout para que entre en una sola página al imprimir */
+    main {
+      padding: 0 !important;
+    }
+
+    section {
+      margin: 0 auto 9px !important;
+    }
+
+    section h2 {
+      font-size: 1rem !important;
+      margin-bottom: 2px !important;
+    }
+
+    ul {
+      gap: 9px !important;
+    }
+
+    p {
+      font-size: 0.72rem !important;
+      line-height: 1.25 !important;
+    }
+
+    h1 {
+      font-size: 1.4rem !important;
+    }
+
+    /* Hero más compacto */
+    .info {
+      gap: 0.25rem !important;
+    }
+
+    .info h2 {
+      font-size: 0.95rem !important;
+    }
+
+    .info span {
+      font-size: 0.75rem !important;
+    }
+
+    /* Encabezados de cada experiencia/educación más juntos */
+    header {
+      margin-bottom: 2px !important;
     }
   }
   /* Esto hace que el contenedor de "languages" sea un flex container */
